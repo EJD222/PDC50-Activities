@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Module05Exercise01
+build_property.ProjectDir = D:\Users\PC\Coding Grinds\Repositories\PDC50\PDC50-Module05-Exercise02\Module05Exercise01\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/Resources/Styles/DefaultResources.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.Resources.Styles.DefaultResources.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\DefaultResources.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\DefaultResources.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[D:/Users/PC/Coding Grinds/Repositories/PDC50/PDC50-Module05-Exercise02/Module05Exercise01/View/ViewEmployees.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Module05Exercise01.View.ViewEmployees.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewEmployees.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewEmployees.xaml

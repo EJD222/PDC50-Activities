@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\view\\offlinepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\view\\offlinepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\view\\offlinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\view\\offlinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\view\\employeepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\view\\employeepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\view\\employeepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\view\\employeepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\resources\\styles\\androidresources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\resources\\styles\\androidresources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\resources\\styles\\androidresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\resources\\styles\\androidresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\module03exercise01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\module03exercise01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\resources\\fonts\\inter-semibold.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\resources\\fonts\\inter-semibold.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\module03exercise01\\module03exercise01\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A50A0B1-AEA2-4099-8560-1659F33489E9}|Module03Exercise01\\Module03Exercise01.csproj|solutionrelative:module03exercise01\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeePage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\EmployeePage.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\View\\EmployeePage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\EmployeePage.xaml",
+              "RelativeToolTip": "Module03Exercise01\\View\\EmployeePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T02:22:13.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\View\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Module03Exercise01\\View\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:41:19.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeToolTip": "Module03Exercise01\\ViewModel\\EmployeeViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:23:35.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeePage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\EmployeePage.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\View\\EmployeePage.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\EmployeePage.xaml.cs",
+              "RelativeToolTip": "Module03Exercise01\\View\\EmployeePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:22:54.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AndroidResources.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml.cs",
+              "RelativeToolTip": "Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:31:53.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Module03Exercise01\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T03:34:46.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OfflinePage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\OfflinePage.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\View\\OfflinePage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\OfflinePage.xaml",
+              "RelativeToolTip": "Module03Exercise01\\View\\OfflinePage.xaml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAlwB8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T02:29:25.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfflinePage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\OfflinePage.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\View\\OfflinePage.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\OfflinePage.xaml.cs",
+              "RelativeToolTip": "Module03Exercise01\\View\\OfflinePage.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:39:26.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\App.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\App.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\App.xaml",
+              "RelativeToolTip": "Module03Exercise01\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T03:05:40.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\App.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\App.xaml.cs*",
+              "RelativeToolTip": "Module03Exercise01\\App.xaml.cs*",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:33:11.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AndroidResources.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml",
+              "RelativeToolTip": "Module03Exercise01\\Resources\\Styles\\AndroidResources.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T03:18:37.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\MainPage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\MainPage.xaml",
+              "RelativeToolTip": "Module03Exercise01\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T02:42:28.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\View\\LoginPage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\View\\LoginPage.xaml",
+              "RelativeToolTip": "Module03Exercise01\\View\\LoginPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T02:28:40.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\AppShell.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\AppShell.xaml",
+              "RelativeToolTip": "Module03Exercise01\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T02:23:59.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\AppShell.xaml.cs",
+              "RelativeToolTip": "Module03Exercise01\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:32:40.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Module03Exercise01.csproj",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Module03Exercise01.csproj",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Module03Exercise01.csproj",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Module03Exercise01.csproj",
+              "RelativeToolTip": "Module03Exercise01\\Module03Exercise01.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T03:13:01.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\MauiProgram.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\MauiProgram.cs",
+              "RelativeToolTip": "Module03Exercise01\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:16:02.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\MainPage.xaml.cs",
+              "RelativeToolTip": "Module03Exercise01\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:32:06.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Module03Exercise01\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T03:50:30.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Inter-Semibold.ttf",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Fonts\\Inter-Semibold.ttf",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Resources\\Fonts\\Inter-Semibold.ttf",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Resources\\Fonts\\Inter-Semibold.ttf",
+              "RelativeToolTip": "Module03Exercise01\\Resources\\Fonts\\Inter-Semibold.ttf",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG1SURBVDhPxVM/TwIxHP215Y\u002BgCFEwIRg3BiYTRpwUJxcZ1A\u002Bhn4ABEhM\u002BgN/AyYQYNjYGVhIWJ0OMBCIkBok4IAbu4K7217vGu0Cimy957a\u002BvfS/XXksSiQTz\u002BXwE/gBCCHDOzW63a0pBDEilUqlmMpkDKfwCEUBHo5FWLpevSqVSRYq1Wq2u6xrXNKRu9w7inC50QV1wOp3yVqulF4vFM/RTbDjHFmEXKCgNezm2BMYYmKbpzeVyd/l8PicDEGI7OGERa27Xgjin1iCSySSkUilfNpu9pk6jK2SFhrUipRT8fr/XFbBYLEDXF9DuTWA\u002Bn0uKfS8FKIhD5TLAGfLcn8F9bSiDDMNwmVeFuL7AMEzov35A83EM9ea7rTlCzOUQip0SH54\u002BIRRksBtjcFsduMyS4mCdZgQNBgJcLRgMxxANE7g43oTeF4PHl4krQJl/KALw4HDQe9OABdZgJ7oBe/F1OD\u002BKQHtkgLHSaJnxktCZpsl3EN\u002BijcP9EHgYge2IHy5PYnCaDjc84uKgQS63ewtWTQqFwo24GGmVbIqDUpMI/N/4iJCUiJpaNbLT6XTtZf8GgG/Ef6iAvgDaYAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-09-04T03:27:01.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Module03Exercise01\\Model\\Employee.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\Module03Exercise01\\Module03Exercise01\\Model\\Employee.cs",
+              "RelativeToolTip": "Module03Exercise01\\Model\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:21:37.816Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

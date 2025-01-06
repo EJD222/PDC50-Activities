@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module02Activity01.View.StudentPage"
+             Title="StudentPage">
+    <VerticalStackLayout Padding="30,5,30,0">
+        <Label 
+            Text="Two-way Data Binding and Data Conversion"
+            FontAttributes="Bold"
+            TextColor="Black"
+            FontSize="25" 
+            Margin="0,0,0,10"/>
+        
+        <!--Label bound to FullName Property-->
+        <Label 
+            Text="{Binding FullName}"
+            FontSize="20" 
+            Margin="0,0,0,10"/>
+        
+        <!--Button bound to LoadStudentDataCommand-->
+        <Button
+            Text="Load Student Data"
+            FontAttributes="Bold"
+            BackgroundColor="Orange"
+            Command="{Binding LoadStudentDataCommand}"
+            Margin="0,0,0,10"
+        />
+
+        <Label 
+            Text="Collections"
+            FontAttributes="Bold"
+            TextColor="Black"
+            FontSize="25" 
+            Margin="0,0,0,10"/>
+        
+        <ListView ItemsSource="{Binding Students}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding FullName2}" 
+                              Detail="{Binding Age}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </VerticalStackLayout>
+</ContentPage>

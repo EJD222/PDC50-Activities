@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Module01Activity02"
+             x:Class="Module01Activity02.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource LocalBackgroundColor}">
+
+    <ContentPage.Resources>
+        <x:String x:Key="StaticUsername">TWICE</x:String>
+        <x:String x:Key="DynamicUsername">Kim Dahyun</x:String>
+        <Color x:Key="DynamicBoxColor">Yellow</Color>
+        <Color x:Key="LocalBackgroundColor">Black</Color>
+        <Color x:Key="ButtonBackgroundColor">#280493</Color>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30">
+
+            <Label 
+                Text="{Binding PageTitle}"
+                TextColor="{Binding ColorWhite}"
+                FontAttributes="{Binding BoldText}"
+                FontSize="{Binding Heading1}" 
+            />
+
+            <Label 
+                Text="This is Module01-Activity02 of PDC50."
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Text1}"
+                FontAttributes="None"
+                Margin="0,0,0,25" 
+            />
+
+            <Line 
+                Stroke="{Binding ColorWhite}"
+                X1="0"
+                X2="2000"
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                StrokeThickness="2" 
+            />
+
+            <Label 
+                Text="Static Label"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Heading2}"
+                FontAttributes="{Binding BoldText}"
+                Margin="0,25,0,10" 
+            />
+
+            <Label 
+                x:Name="StaticResourceLabel"
+                Text="{StaticResource StaticUsername}"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Text1}"
+                Margin="0,0,0,10" 
+            />
+
+            <Button 
+                Text="Change Label Name (Static)"
+                TextColor="{Binding ColorWhite}"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Clicked="OnChangedLabelNameStatic"
+                Margin="0,0,0,25" 
+            />
+
+            <Line 
+                Stroke="{Binding ColorWhite}"
+                X1="0"
+                X2="2000"
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                StrokeThickness="2" 
+            />
+
+            <Label 
+                Text="Dynamic Label"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Heading2}"
+                FontAttributes="{Binding BoldText}"
+                Margin="0,25,0,10" 
+            />
+
+            <Label 
+                x:Name="DynamicResourceLabel"
+                Text="{DynamicResource DynamicUsername}"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Text1}"
+                Margin="0,0,0,10" 
+            />
+
+            <Button 
+                Text="Change Label Name (Dynamic)"
+                TextColor="{Binding ColorWhite}"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Clicked="OnChangedLabelNameDynamic"
+                Margin="0,0,0,25" 
+            />
+
+            <Line 
+                Stroke="{Binding ColorWhite}"
+                X1="0"
+                X2="2000"
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                StrokeThickness="2" 
+            />
+
+            <Label 
+                Text="Dynamic Background Colors"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Heading2}"
+                FontAttributes="{Binding BoldText}"
+                Margin="0,25,0,10" 
+            />
+
+            <Button 
+                Text="Change Background Color to Light Green"
+                Clicked="OnChangedBackgroundColorToLightGreen"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Margin="0,0,0,10" 
+            />
+
+            <Button 
+                Text="Change Background Color to Pink"
+                Clicked="OnChangedBackgroundColorToPink"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Margin="0,0,0,10" 
+            />
+
+            <Button 
+                Text="Change Background Color to Light Blue"
+                Clicked="OnChangedBackgroundColorToLightBlue"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Margin="0,0,0,10" 
+            />
+
+            <Button 
+                Text="Change Background Color to Black"
+                Clicked="OnChangedBackgroundColorToBlack"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Margin="0,0,0,25" 
+            />
+
+            <Line 
+                Stroke="{Binding ColorWhite}"
+                X1="0"
+                X2="2000"
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                StrokeThickness="2" 
+            />
+
+            <Label 
+                Text="Dynamic BoxView Color"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Heading2}"
+                FontAttributes="{Binding BoldText}"
+                Margin="0,25,0,10" 
+            />
+
+            <BoxView 
+                HeightRequest="100"     
+                WidthRequest="100"
+                Color="{DynamicResource DynamicBoxColor}"
+                Margin="0,10,0,25" 
+            />
+
+            <Button 
+                Text="Change BoxView Color"    
+                Clicked="OnChangeBoxViewColor"
+                BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                Margin="0,0,0,25" 
+            />
+
+            <Line 
+                Stroke="{Binding ColorWhite}"
+                X1="0"
+                X2="2000"
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                StrokeThickness="2" 
+            />
+
+            <Label 
+                Text="Current Date"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Heading2}"
+                FontAttributes="{Binding BoldText}"
+                Margin="0,25,0,10" 
+            />
+
+            <Label 
+                Text="{local:CurrentDateExtension}"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Text1}"
+                Margin="0,0,0,25" 
+            />
+
+            <Line 
+                Stroke="{Binding ColorWhite}"
+                X1="0"
+                X2="2000"
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                StrokeThickness="2" 
+            />
+
+            <Label 
+                Text="Entry"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Heading2}"
+                FontAttributes="{Binding BoldText}"
+                Margin="0,25,0,10" 
+            />
+
+            <Entry 
+                x:Name="MyEntry"
+                Placeholder="Type here..."
+                PlaceholderColor="{Binding ColorWhite}"
+                Text="{Binding Text, Source={x:Reference MyEntry}}"
+                FontSize="{Binding Text1}"
+                TextColor="{Binding ColorWhite}" 
+            />
+
+            <Label 
+                Text="{Binding Source={x:Reference MyEntry}, Path=Text}"
+                TextColor="{Binding ColorWhite}"
+                FontSize="{Binding Text1}"
+                Margin="0,0,0,25" 
+            />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

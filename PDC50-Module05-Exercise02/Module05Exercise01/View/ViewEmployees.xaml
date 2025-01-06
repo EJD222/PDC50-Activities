@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module05Exercise01.View.ViewEmployees"
+             xmlns:local="clr-namespace:Module05Exercise01.ViewModel"
+             Title="ViewEmployees"
+             BackgroundColor="{DynamicResource TertiaryColor}"
+             Shell.NavBarIsVisible="False">
+
+    <!-- Make it scrollable -->
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,30"
+            Spacing="25">
+
+            <!-- Page Header -->
+            <Label 
+                Text="Employees"
+                FontSize="26" 
+                HorizontalOptions="Center" 
+                FontFamily="{DynamicResource FontFamilyBold}"
+                TextColor="{DynamicResource SecondaryColor}" />
+
+            <Label 
+               Text="Search"
+               FontSize="16" 
+               HorizontalOptions="Start" 
+               FontFamily="{DynamicResource FontFamilyBold}"
+               TextColor="{DynamicResource SecondaryColor}"
+               Margin="0,0,0,-30" />
+
+            <!-- Search Bar -->
+            <Grid Padding="10">
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <SearchBar 
+                    Grid.Column="0"
+                    Placeholder="Search by name, address, email, or contact number"
+                    Text="{Binding SearchText}"
+                    TextColor="{DynamicResource SecondaryColor}"
+                    FontFamily="{DynamicResource FontFamilyRegular}"
+                    HorizontalOptions="FillAndExpand" />
+
+                <Image 
+                    Grid.Column="1"
+                    Source="search_2.png" 
+                    WidthRequest="30" 
+                    HeightRequest="30"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center">
+                </Image>
+            </Grid>
+
+            <!-- Search Results -->
+            <ListView ItemsSource="{Binding FilteredEmployeeList}" SelectedItem="{Binding SelectedEmployee}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <StackLayout Orientation="Vertical" Padding="10">
+
+                                <Label 
+                                    Text="{Binding Name}" 
+                                    FontSize="18" 
+                                    FontFamily="{DynamicResource FontFamilySemiBold}"
+                                    TextColor="{DynamicResource SecondaryColor}" />
+                                <Label 
+                                    Text="{Binding email}" 
+                                    FontSize="14" 
+                                    FontFamily="{DynamicResource FontFamilyRegular}"
+                                    TextColor="{DynamicResource SecondaryColor}" />
+                                
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding Source=
+                                        {RelativeSource AncestorType={x:Type local:EmployeeViewModel}},
+                                        Path=SelectEmployeeCommand}"
+                                        CommandParameter="{Binding .}" />
+                                </StackLayout.GestureRecognizers>
+
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <!-- ListView with Image and Details -->
+            <ListView ItemsSource="{Binding EmployeeList}" SelectedItem="{Binding SelectedEmployee}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame 
+                                BackgroundColor="{DynamicResource PrimaryColor}"
+                                CornerRadius="10"
+                                Padding="10"
+                                BorderColor="Transparent"
+                                Margin="5,5,5,0">
+
+                                <HorizontalStackLayout Padding="10" Spacing="15">
+                                    <!-- Image with Circular Clipping -->
+                                    <Image 
+                                        Source="{Binding ProfilePicture}" 
+                                        WidthRequest="50" 
+                                        HeightRequest="50" 
+                                        Aspect="AspectFill"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start">
+                                        <Image.Clip>
+                                            <EllipseGeometry 
+                                                Center="25,25" 
+                                                RadiusX="25" 
+                                                RadiusY="25"/>
+                                        </Image.Clip>
+                                    </Image>
+
+                                    <!-- Employee Details -->
+                                    <VerticalStackLayout VerticalOptions="Center">
+                                        <!-- Name -->
+                                        <Label 
+                                            Text="{Binding Name}" 
+                                            FontSize="18" 
+                                            FontFamily="{DynamicResource FontFamilyBold}" 
+                                            TextColor="{DynamicResource TertiaryColor}" />
+
+                                        <!-- Address -->
+                                        <Label 
+                                            Text="{Binding Address}" 
+                                            FontSize="14" 
+                                            FontFamily="{DynamicResource FontFamilyRegular}" 
+                                            TextColor="{DynamicResource TertiaryColor}" />
+
+                                        <!-- Email -->
+                                        <Label 
+                                            Text="{Binding email}" 
+                                            FontSize="14" 
+                                            FontFamily="{DynamicResource FontFamilyRegular}" 
+                                            TextColor="{DynamicResource TertiaryColor}" />
+
+                                        <!-- Contact Number -->
+                                        <Label 
+                                            Text="{Binding ContactNo}" 
+                                            FontSize="14" 
+                                            FontFamily="{DynamicResource FontFamilyRegular}" 
+                                            TextColor="{DynamicResource TertiaryColor}" />
+
+                                        <VerticalStackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:EmployeeViewModel}},
+                                                Path=SelectedEmployeeCommand}"
+                                                CommandParameter="{Binding .}"/>
+                                        </VerticalStackLayout.GestureRecognizers>
+                                    </VerticalStackLayout>
+                                </HorizontalStackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!-- Load Data Button -->
+            <Button 
+                Text="Load Data" 
+                Command="{Binding LoadDataCommand}"
+                HorizontalOptions="Fill"
+                TextColor="{DynamicResource TertiaryColor}"
+                BackgroundColor="{DynamicResource SecondaryColor}"
+                CornerRadius="5"
+                FontFamily="{DynamicResource FontFamilySemiBold}"/>
+
+            <!-- Add and Delete Employees -->
+            <Label 
+                Text="Add New Employee"
+                FontSize="26" 
+                HorizontalOptions="Center" 
+                FontFamily="{DynamicResource FontFamilyBold}"
+                TextColor="{DynamicResource SecondaryColor}" />
+
+            <Frame 
+                CornerRadius="5"  
+                BorderColor="Gray" 
+                BackgroundColor="Transparent" 
+                Padding="0" 
+                HasShadow="False">
+                <Entry 
+                    Placeholder="Name" 
+                    Text="{Binding NewEmployeeName}" 
+                    TextColor="{DynamicResource SecondaryColor}"/>
+            </Frame>
+
+            <Frame 
+                CornerRadius="5"  
+                BorderColor="Gray" 
+                BackgroundColor="Transparent" 
+                Padding="0" 
+                HasShadow="False">
+                <Entry 
+                    Placeholder="Address" 
+                    Text="{Binding NewEmployeeAddress}"
+                    TextColor="{DynamicResource SecondaryColor}"/>
+            </Frame>
+
+            <Frame 
+                CornerRadius="5"  
+                BorderColor="Gray" 
+                BackgroundColor="Transparent" 
+                Padding="0" 
+                HasShadow="False">
+                <Entry 
+                    Placeholder="Email" 
+                    Text="{Binding NewEmployeeEmail}"
+                    TextColor="{DynamicResource SecondaryColor}"/>
+            </Frame>
+
+            <Frame 
+                CornerRadius="5"  
+                BorderColor="Gray" 
+                BackgroundColor="Transparent" 
+                Padding="0" 
+                HasShadow="False">
+                <Entry 
+                    Placeholder="Contact No." 
+                    Text="{Binding NewEmployeeContactNo}"
+                    TextColor="{DynamicResource SecondaryColor}"/>
+            </Frame>
+
+            <StackLayout>
+                <Button
+                    Text="Add Employee"
+                    HorizontalOptions="Fill"
+                    Command="{Binding AddEmployeeCommand}"
+                    TextColor="{DynamicResource TertiaryColor}"
+                    BackgroundColor="{DynamicResource SecondaryColor}"
+                    CornerRadius="5"
+                    FontFamily="{DynamicResource FontFamilySemiBold}"
+                    Margin="0,0,0,10"/>
+
+                <Button
+                    Text="Update Employee"
+                    HorizontalOptions="Fill"
+                    Command="{Binding UpdateEmployeeCommand}" IsEnabled="{Binding IsEmployeeSelected}"
+                    TextColor="{DynamicResource TertiaryColor}"
+                    BackgroundColor="{DynamicResource SecondaryColor}"
+                    CornerRadius="5"
+                    FontFamily="{DynamicResource FontFamilySemiBold}"
+                    Margin="0,0,0,10"/>
+                
+                <Button
+                    Text="Delete Employee"
+                    HorizontalOptions="Fill"
+                    Command="{Binding DeleteEmployeeCommand}" IsEnabled="{Binding IsEmployeeSelected}"
+                    TextColor="{DynamicResource PrimaryColor}"
+                    BackgroundColor="{DynamicResource SecondaryColor}"
+                    CornerRadius="5"
+                    FontFamily="{DynamicResource FontFamilySemiBold}"/>
+            </StackLayout>
+
+            <!-- Connection Status Label -->
+            <Label 
+                x:Name="ConnectionStatusLabel"
+                Text="{Binding StatusMessage}"
+                FontFamily="{DynamicResource FontFamilyRegular}"
+                FontSize="16"
+                HorizontalOptions="Center"
+                TextColor="{DynamicResource SecondaryColor}" />
+
+            <!-- Back to Home Button -->
+            <Button
+                Text="Back to Home"
+                Clicked="OnHomePageClicked"
+                HorizontalOptions="Fill"
+                TextColor="{DynamicResource TertiaryColor}"
+                BackgroundColor="{DynamicResource SecondaryColor}"
+                CornerRadius="5"
+                FontFamily="{DynamicResource FontFamilySemiBold}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

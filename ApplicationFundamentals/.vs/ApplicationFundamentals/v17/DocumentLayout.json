@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\view\\offlinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\view\\offlinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\view\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\view\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\view\\offlinepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\view\\offlinepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\resources\\styles\\androidresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\resources\\styles\\androidresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\view\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\view\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\resources\\styles\\windowsresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\resources\\styles\\windowsresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\resources\\styles\\windowsresources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\resources\\styles\\windowsresources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|d:\\users\\pc\\coding grinds\\repositories\\pdc50\\applicationfundamentals\\applicationfundamentals\\applicationfundamentals.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFDE5C5B-279D-4F61-A944-08A88956CF28}|ApplicationFundamentals\\ApplicationFundamentals.csproj|solutionrelative:applicationfundamentals\\applicationfundamentals.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowsResources.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml.cs",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml.cs",
+              "RelativeToolTip": "ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:33:44.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\App.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\App.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\App.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T01:25:34.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WindowsResources.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\Resources\\Styles\\WindowsResources.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T01:21:46.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidResources.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\AndroidResources.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\Resources\\Styles\\AndroidResources.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\AndroidResources.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\Resources\\Styles\\AndroidResources.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T01:21:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\View\\Dashboard.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\Dashboard.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\View\\Dashboard.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T00:37:39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\App.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\App.xaml.cs",
+              "RelativeToolTip": "ApplicationFundamentals\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:36:06.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\AppShell.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\AppShell.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\AppShell.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T00:32:06.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OfflinePage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\OfflinePage.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\View\\OfflinePage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\OfflinePage.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\View\\OfflinePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T00:31:55.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OfflinePage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\OfflinePage.xaml.cs",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\View\\OfflinePage.xaml.cs",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\OfflinePage.xaml.cs",
+              "RelativeToolTip": "ApplicationFundamentals\\View\\OfflinePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:36:32.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartPage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\StartPage.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\View\\StartPage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\View\\StartPage.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\View\\StartPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T00:31:42.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T01:33:48.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\MainPage.xaml",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\MainPage.xaml",
+              "RelativeToolTip": "ApplicationFundamentals\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T00:43:47.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationFundamentals.csproj",
+              "DocumentMoniker": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\ApplicationFundamentals.csproj",
+              "RelativeDocumentMoniker": "ApplicationFundamentals\\ApplicationFundamentals.csproj",
+              "ToolTip": "D:\\Users\\PC\\Coding Grinds\\Repositories\\PDC50\\ApplicationFundamentals\\ApplicationFundamentals\\ApplicationFundamentals.csproj",
+              "RelativeToolTip": "ApplicationFundamentals\\ApplicationFundamentals.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T00:30:53.989Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
