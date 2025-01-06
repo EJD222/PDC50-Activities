@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module03Exercise01.View.AddEmployee"
+            xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             Shell.NavBarIsVisible="False"
+             Title="AddEmployee">
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#01A0EF"/>
+    </Page.Behaviors>
+    <ScrollView>
+        <VerticalStackLayout Padding="30,30" VerticalOptions="Center">
+            <Image Source="man.png"
+                   HeightRequest="120"
+                   Aspect="AspectFit"
+                   SemanticProperties.Description="Employee"
+                   Margin="0,10,0,5" />
+
+            <Label Text="Add an Employee"
+                   FontAttributes="Bold"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   FontSize="32"
+                   HorizontalOptions="Center"
+                   TextColor="{DynamicResource SecondaryColor}" />
+
+            <Label Text="Personal Information" 
+                   FontAttributes="Bold"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   FontSize="16"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,0"/>
+
+            <Entry Placeholder="First Name"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Keyboard="Text"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Entry Placeholder="Last Name"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Entry Placeholder="Full Name"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Entry Placeholder="Position"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Entry Placeholder="Department"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Label Text="Address" 
+                   FontAttributes="Bold"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   FontSize="16"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,0"/>
+
+            <Entry Placeholder="Municipality"
+                   x:Name="MunicipalityEntry"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Entry Placeholder="Province"
+                   x:Name="ProvinceEntry"
+                   FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                   Margin="0,10,0,0"
+                   BackgroundColor="{DynamicResource PrimaryColor}" />
+
+            <Label x:Name="CoordinatesLabel"
+                   Text="Coordinates will appear here." 
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,0"/>
+
+            <Button Text="Get Location"
+                    BackgroundColor="{DynamicResource TertiaryColor}"
+                    TextColor="{DynamicResource PrimaryColor}"
+                    Clicked="OnGetLocationClicked" 
+                    CornerRadius="5"
+                    Padding="15"
+                    Margin="0,20,0,0" />
+
+            <Label Text="Photo" 
+                    FontAttributes="Bold"
+                    FontFamily="{DynamicResource PrimaryFontFamilySemiBold}"
+                    FontSize="16"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="0,10,0,0"/>
+
+            <Label
+                Text="Captured Image:" 
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="0,0,0,15" 
+            />
+     
+            <Image
+                x:Name="CaptureImage"
+                HeightRequest="235"
+                WidthRequest="320"
+                Aspect="AspectFill"
+                SemanticProperties.Description="Employee Photo" />
+
+            <Button Text="Take Employee Photo"
+                    BackgroundColor="{DynamicResource TertiaryColor}"
+                    TextColor="{DynamicResource PrimaryColor}"
+                    Clicked="OnCapturePhotoClicked"
+                    CornerRadius="5"
+                    Padding="15"
+                    Margin="0,20,0,0" />
+
+
+            <Button Text="See Employee Page?"
+                   BackgroundColor="{DynamicResource TertiaryColor}"
+                   TextColor="{DynamicResource PrimaryColor}"
+                   Clicked="OnEmployeePageClicked"
+                   CornerRadius="5"
+                   Padding="15"
+                   Margin="0,20,0,0" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

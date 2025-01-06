@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Module03Exercise01.ViewModel"
+             x:Class="Module03Exercise01.View.EmployeePage"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PrimaryColor}">
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#01A0EF"/>
+    </Page.Behaviors>
+    <ScrollView>
+        <VerticalStackLayout Padding="30,10,30,0">
+            <Label Text="Employees"
+                   FontFamily="{DynamicResource PrimaryFontFamily}"
+                   FontAttributes="Bold"
+                   TextColor="{DynamicResource SecondaryColor}"
+                   FontSize="35"
+                   Margin="0,0,0,10"/>
+            
+            <Image Source="jyp_building.png"
+                   HeightRequest="120"
+                   Aspect="AspectFill"
+                   SemanticProperties.Description="JYP Building"
+                   Margin="0,10,0,20" />
+
+            <Label Text="Manager"
+                   FontFamily="{DynamicResource PrimaryFontFamily}"
+                   FontAttributes="Bold"
+                   TextColor="{DynamicResource SecondaryColor}"
+                   FontSize="25"
+                   Margin="0,0,0,10"/>
+
+            <Label Text="{Binding FullName}"
+                   FontFamily="{DynamicResource PrimaryFontFamily}"
+                   FontSize="20"
+                   Margin="0,0,0,10"/>
+
+            <Button Text="Manager"
+                    FontAttributes="Bold"
+                    FontFamily="{DynamicResource PrimaryFontFamily}"
+                    Command="{Binding LoadEmployeeDataCommand}"
+                    Margin="0,0,0,10" />
+
+            <Label Text="Employees"
+                   FontAttributes="Bold"
+                   FontFamily="{DynamicResource PrimaryFontFamily}"
+                   TextColor="{DynamicResource SecondaryColor}"
+                   FontSize="25"
+                   Margin="0,0,0,10"/>
+
+            <ListView ItemsSource="{Binding Employees}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding FullName}"
+                                  TextColor="{DynamicResource TertiaryColor}"
+                                  Detail="{Binding EmployeeDetails}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

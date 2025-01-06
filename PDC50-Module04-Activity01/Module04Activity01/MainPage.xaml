@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="Module04Activity01.MainPage"
+             Shell.NavBarIsVisible="False">
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="Red"/>
+    </Page.Behaviors>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,30">
+            <Label Text="Geolocation"
+                   FontSize="32" 
+                   FontAttributes="Bold" 
+                   Margin="0,0,0,25"/>
+            <Image
+                Source="map.png"
+                HeightRequest="140"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Map" 
+                Margin="0,0,0,25"/>
+            <Button
+                Text="Get Location" 
+                Clicked="OnGetLocationClicked" 
+                BackgroundColor="Red"
+                Margin="0,0,0,25"/>
+            <Label
+                x:Name="LocationLabel"
+                Text="Location will appear here." 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            />
+            <Label
+                x:Name="AddressLabel"
+                Text="Address will appear here." 
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Margin="0,0,0,10"
+            />
+            <Label 
+                 Text="Capture Image"
+                 FontSize="32" 
+                 FontAttributes="Bold" 
+                 Margin="0,0,0,5"/>
+            <Button
+                Text="Capture Photo" 
+                Clicked="OnCapturePhotoClicked" 
+                BackgroundColor="Red"
+                Margin="0,0,0,15" />
+            <Label
+                Text="Captured Image:" 
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="0,0,0,15" 
+             />
+            <Image
+                x:Name="CaptureImage"
+                HeightRequest="235"
+                WidthRequest="320"
+                Aspect="AspectFill"
+                SemanticProperties.Description="Map" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
